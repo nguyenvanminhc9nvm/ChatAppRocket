@@ -4,8 +4,8 @@ import Home from './Home';
 import ForgotPassword from './ForgotPassword';
 
 export {
-    /* SCREEN EXPORT */
-    Login,
-    Home,
-    ForgotPassword,
-}
+  /* SCREEN EXPORT */
+  Login,
+  Home,
+  ForgotPassword,
+};

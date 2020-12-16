@@ -1,14 +1,12 @@
-export interface ILoginRequestState {
-    type: String;
-    username: string;
-    password: string;
-}
+import {ILoginResponse} from '../api/login';
 
-interface IResponse {
-    id: number;
+export interface ILoginRequestState {
+  type: String;
+  user: string;
+  password: string;
 }
 
 export interface ILoginResponseState {
-    type: String;
-    response: IResponse;
+  type: String;
+  response: ILoginResponse;
 }

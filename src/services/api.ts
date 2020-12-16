@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '',
+  baseURL: 'https://discussion.miichisoft.net/api/v1',
   responseType: 'json',
   withCredentials: true,
 });
 
-export { api };
+export {api};

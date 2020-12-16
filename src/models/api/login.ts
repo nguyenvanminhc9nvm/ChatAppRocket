@@ -1,3 +1,10 @@
 export interface ILoginResponse {
-    id: number
+  userId: string;
+  authToken: string;
+  me: User;
+}
+
+export interface User {
+  _id: string;
+  name: string;
 }
